@@ -2,7 +2,7 @@
 
 A lightweight, object-oriented programmed demoscene engine written in pure C, utilizing SDL2. 
 
-This project demonstrates how to build a flexible, polymorphic rendering engine in C without relying on C++. It recreates the classic 1984 Amiga boing ball demo, complete with a falling OS curtain and a pair of procedurally generated "Xeyes" that track the ball in real-time.
+This project demonstrates how to build a flexible, polymorphic rendering engine in C without relying on C++. It takes inspiration from the classic 1984 Amiga boing ball demo, complete with a falling OS curtain and a pair of procedurally generated "Xeyes" that track the ball in real-time.
 
 ## Features
 
