@@ -15,6 +15,7 @@ all: $(TARGET)
 
 $(TARGET): $(OBJS)
 	$(CC) $(OBJS) -o $(TARGET) $(LDLIBS)
+	strip $(TARGET)
 
 %.o: %.c
 	$(CC) $(CFLAGS) -c $< -o $@

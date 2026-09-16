@@ -6,8 +6,8 @@
 #include <stdbool.h>
 #include <math.h>
 
-#define WINDOW_WIDTH 1280
-#define WINDOW_HEIGHT 1024
+#define WINDOW_WIDTH 800
+#define WINDOW_HEIGHT 600
 #define PI 3.14159265358979323846
 
 /* =========================================
@@ -143,7 +143,7 @@ Effect* create_amiga_ball(SDL_Renderer* renderer, float start_x, float start_y, 
     ball->y = start_y;
     ball->vx = 350.0f; 
     ball->vy = 280.0f;
-    ball->radius = 120;
+    ball->radius = 100;
     ball->hit_sound = sound;
     ball->spin_angle = 0.0f;
     ball->tilt_angle = 0.26f;
@@ -342,7 +342,8 @@ int main() {
     // 1. The Xeyes
     // Center is set to (20, 600). The left eye renders at -8, making it peek in from off-screen left.
     // The bottom of the eyes render at 642, making them peek up from off-screen bottom.
-    playlist[1] = create_xeyes(20, WINDOW_HEIGHT, (AmigaBoingBall*)playlist[0]);
+    // Shifts the eyes rightward and upward so the full sclera and pupils stay visible
+    playlist[1] = create_xeyes(45, WINDOW_HEIGHT - 20, (AmigaBoingBall*)playlist[0]);
     
     // 2. The Curtain (Renders on top of everything until it falls away)
     playlist[2] = create_workbench_curtain(workbench_tex);
