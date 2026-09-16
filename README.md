@@ -1,5 +1,7 @@
 # True 3D Amiga Boing Ball
 
+![boing-ball](images/boing-ball.png)
+
 A lightweight, object-oriented programmed demoscene engine written in pure C, utilizing SDL2. 
 
 This project demonstrates how to build a flexible, polymorphic rendering engine in C without relying on C++.
