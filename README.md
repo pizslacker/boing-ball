@@ -46,7 +46,7 @@ Place the following files in the root directory before running:
 
 `workbench.png` (or `.jpg`) - The foreground image that falls away.
 
-`bgm.mod` - A tracker module file for background music.
+`bgm.mod` - A tracker module file for continuous background music.
 
 `boing.wav` - The sound effect triggered when the ball hits a wall.
 
