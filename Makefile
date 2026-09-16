@@ -7,8 +7,8 @@ CFLAGS = -Wall -Wextra -pedantic -O2 $(shell pkg-config --cflags sdl2 SDL2_image
 LDLIBS = $(shell pkg-config --libs sdl2 SDL2_image SDL2_mixer) -lm
 
 # Project files
-TARGET = sdl2_oop
-SRCS = oo.c
+TARGET = boing-ball
+SRCS = boing-ball.c
 OBJS = $(SRCS:.c=.o)
 
 all: $(TARGET)
