@@ -40,3 +40,22 @@ On Debian/Ubuntu-based systems:
 ```bash
 sudo apt install libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev
 ```
+
+## Required Assets
+Place the following files in the root directory before running:
+
+`workbench.png` (or `.jpg`) - The foreground image that falls away.
+
+`bgm.mod` - A tracker module file for background music.
+
+`boing.wav` - The sound effect triggered when the ball hits a wall.
+
+## Build and Run
+The project uses pkg-config in the Makefile to automatically link the correct SDL2 libraries for your system.
+```bash
+# Compile and execute the demo
+make run
+
+# Clean build artifacts
+make clean
+```
