@@ -146,7 +146,7 @@ Effect* create_amiga_ball(SDL_Renderer* renderer, float start_x, float start_y, 
     ball->y = start_y;
     ball->vx = 350.0f; 
     ball->vy = 280.0f;
-    ball->radius = 120;
+    ball->radius = 100;
     ball->hit_sound = sound;
     ball->spin_angle = 0.0f;
     ball->tilt_angle = 0.26f;
@@ -357,7 +357,7 @@ int main(int argc, char* argv[]) {
         }
     }
 
-    SDL_Window* window = SDL_CreateWindow("Configurable Amiga Intro", 
+    SDL_Window* window = SDL_CreateWindow("True 3D Amiga Boing Ball in C / SDL2 / OOP", 
                                           SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 
                                           g_window_width, g_window_height, SDL_WINDOW_SHOWN);
     SDL_Renderer* renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC);
