@@ -17,3 +17,11 @@ To achieve this exact look, I applied a classic graphics trick called **the Pain
 4. We draw the floor lines first, then lift the background layer over the floor by rendering a solid grey rectangle from the top of the screen down to the horizon, physically painting over the floor's vanishing point.
 
 5. Finally, we draw the back wall grid over that solid layer.
+
+## Usage:
+
+You can now customize the window size, ball radius, gravity, bounce dampening, and framerate directly from the terminal.
+
+```bash
+
+```
