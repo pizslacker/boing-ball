@@ -23,5 +23,15 @@ To achieve this exact look, I applied a classic graphics trick called **the Pain
 You can now customize the window size, ball radius, gravity, bounce dampening, and framerate directly from the terminal.
 
 ```bash
+Amiga Boing Ball 1985 Clone
 
+Usage: ./boing-ball [options]
+Options:
+  -w <width>      Window width (default: 800)
+  -H <height>     Window height (default: 600)
+  -r <radius>     Ball radius (default: 100)
+  -g <gravity>    Gravity strength (default: 0.3)
+  -d <dampening>  Bounce dampening multiplier, 1.0 is endless (default: 1.0)
+  -f <fps>        Target framerate (default: 60)
+  -h              Show this help message
 ```
