@@ -6,7 +6,7 @@ The original demo relied on hardware features like color cycling (shifting the p
 
 ### Perspective grid:
 
-To achieve this exact look, I applied a classic graphics trick called the Painter's Algorithm:
+To achieve this exact look, I applied a classic graphics trick called **the Painter's Algorithm** (_additive_):
 
 1. We establish a vanishing point for the floor higher up on the screen.
 
