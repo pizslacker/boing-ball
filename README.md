@@ -1,6 +1,6 @@
 # Amiga Boing Ball
 
-A complete, self-contained C program using SDL2 that replicates the famous **1985 Amiga Boing Ball demo**.
+A complete, self-contained `24KB` C program using SDL2 that replicates the famous **1985 Amiga Boing Ball demo**.
 
 ![AmigaBoingBall](images/boing-ball-1985.png)
 
