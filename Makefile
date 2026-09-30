@@ -14,6 +14,7 @@ all: $(TARGET)
 # Link the executable
 $(TARGET): $(OBJ)
 	$(CC) -o $@ $^ $(LDFLAGS)
+	strip $(TARGET)
 
 # Compile object files
 %.o: %.c
